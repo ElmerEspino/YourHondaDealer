@@ -1,0 +1,770 @@
+﻿/*----------------------------*/
+
+/*  Customized Style Sheet    */
+
+/*  Created By: Elmer Espino  */
+
+/*----------------------------*/
+ html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    min-width: 375px;
+}
+body {
+    background-color: #ffffff;
+    color: #505050;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 1.50;
+    color: #333333;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    min-width: 375px;
+    overflow:-x: hidden;
+}
+p, li, a {
+    font-family:'Source Sans Pro', sans-serif;
+    letter-spacing: 0.3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*  Header Section */
+ .nabar-brand-con {
+    display: inline-block;
+}
+.navbar-brand {
+    height: auto;
+}
+.company-title-con {
+    vertical-align: top;
+    margin-top: 20px;
+    display: inline-block;
+}
+.company-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #333333;
+}
+.company-title:hover {
+    text-decoration: none;
+    color: #333333;
+}
+.sales {
+    font-weight: 700;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.social-media {
+    margin-top: 20px;
+}
+.social-icons li {
+    padding: 0;
+    vertical-align: middle;
+}
+.fa-stack {
+    width: 32px;
+    height: 27px;
+}
+.facebook {
+    color: #2360bb;
+}
+.twitter {
+    color: #1da1f4;
+}
+.googleplus {
+    color: #df4d24;
+}
+/* Nav Section */
+ .navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.navbar-custom {
+    margin-bottom: 0;
+    border: none;
+    background-color: #333333;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-default .navbar-toggle {
+	  border: none;
+}
+.navbar-custom a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav > li > a {
+    padding: 15px 14px;
+}
+.navbar-custom .nav li a {
+    color: #ffffff;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: #017cc2;
+    background-color: #fff;
+}
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+    outline: 0;
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: #ffffff;
+    color: #428bca;
+}
+.navbar-custom .nav li.active a {
+    background-color: #ffffff);
+}
+.navbar-custom .nav li.active a:hover {
+    color: #428bca;
+}
+.navbar-nav > li .navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+    height: 3px;
+}
+/* Banner Section */
+ .header-banner {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-banner .title-heading {
+    color: #333333;
+    font-size: 50pt;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.header-banner .title-sub-heading {
+    letter-spacing: normal;
+    color: #333333;
+    font-size: 15pt;
+    font-weight: 200;
+    text-align: left;
+}
+.header-banner .btn {
+    margin: 15px 0;
+    text-align: center;
+}
+/* Main Selection Section */
+ .main-selection {
+    padding: 50px;
+    background-color: #eeeeee;
+}
+.main-selection .btn {
+    width: 100%;
+    padding: 31px 8px;
+    margin: 5px 0px;
+}
+.main-products {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: 70px;
+}
+.main-products ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.main-products li a {
+    color: #999999;
+    text-decoration: none;
+}
+.main-products li a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+/* Help Us Section */
+ .help-us .list-group li {
+    padding: 5px 0;
+}
+.help-us .list-group li {
+    padding: 5px 0;
+}
+.help-us .list-group li a {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+}
+.help-us .list-group li a:hover {
+    color: #333333;
+}
+.main-products .item {
+    padding: 0 15px;
+}
+/* Promotion Section */
+ .promotion {
+    background-color: #333333;
+}
+.ads {
+    text-align: center;
+    padding: 50px 0;
+}
+.ads img {
+    width: 100%;
+}
+.privacy, .contact-us {
+    color: #444444;
+}
+.privacy:hover, .contact-us:hover {
+    color: #444444;
+    text-decoration: none;
+}
+/* Global Form control */
+ button, input, select, textarea {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 16px;
+    resize: none;
+}
+/* Glabal Buttons */
+ .btn-primary {
+    background-color: #017cc2;
+    font-family:'Source Sans Pro', sans-serif;
+    border: 1px solid #017cc2;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight:bold;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #0485cf;
+    border: 1px solid #0485cf;
+}
+.btn-success {
+    background-color: #56ba74;
+    border: 1px solid #56ba74;
+    color: #ffffff;
+    font-family: ebrima;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #3aa35a;
+    border-color: #3aa35a;
+}
+/* Smallest Screen Size Design Target */
+
+/* Example: iPhone portrait */
+
+/* True if width greater than or equal to 320px */
+ @media only screen and (min-width: 320px) {
+    body {
+        background-color: #ffffff;
+    }
+    .container {
+        position: relative;
+    }
+    /*  Header Section */
+    .nabar-brand-con {
+        float: left;
+    }
+    .social-media {
+        float: right;
+        width: 238px;
+    }
+    .social-media {
+        margin-top: 20px;
+        padding: 0;
+    }
+    .company-title-con {
+        position: absolute;
+        right: 15px;
+        top: -22px;
+    }
+    .header-banner {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-position: 27% 100%;
+        height: 500px;
+        width: 100%;
+        min-height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .header-banner .title-heading {
+        text-align: center;
+        font-size: 30pt;
+    }
+    .header-banner .title-sub-heading {
+        text-align: center;
+        font-size: 10pt;
+    }
+    .header-banner .btn {
+        margin: 15px 0;
+        text-align: center;
+    }
+    .main-selection {
+        margin-top: 0px;
+        padding: 50px 0;
+    }
+    /* Help Us Section */
+    .help-us, .product-offer {
+        text-align: center;
+    }
+    .help-us {
+        margin-top: 50px;
+    }
+    .product-offer {
+        margin-top: 102px;
+    }
+    .help-us h4 {
+        font-size: 28px;
+    }
+    .help-us .list-group li a {
+        font-size: 18px;
+    }
+    .product-offer strong {
+        font-size: 28px;
+        width: 100%;
+        display: block;
+    }
+    .product-offer small a {
+        color: #999999;
+    }
+    .product-offer small a:hover {
+        color: #999999;
+        text-decoration: none;
+    }
+    .main-products .item {
+        padding: 0 15px;
+        margin-top: 25px;
+    }
+    .product-name {
+        font-weight:700;
+        font-size:16px;
+        margin-bottom: 0;
+        color: #444444;
+    }
+    .product-desc {
+        font-size:15px;
+    }
+    .product-details {
+        font-size:15px;
+        color: #999999;
+    }
+    .product-thumb img {
+        width: 100%;
+    }
+    .thumbnail {
+        background-color: #fff;
+        border: none;
+        border-radius: 0;
+    }
+    /* Promotion */
+    .ads img {
+        margin: 30px 0;
+    }
+    /* Last Footer /*/
+    .footer-menu {
+        background-color: #017cc2;
+        padding: 70px 0;
+        text-align:center;
+    }
+    .footer-menu .menu li {
+        padding: 0;
+        color: #ffffff;
+    }
+    .menue {
+        padding: 0;
+        margin: 0;
+    }
+    .menu li a {
+        padding-right: 5px;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .footer {
+        padding: 60px 0;
+    }
+    .footer .pixel-logo {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+    .footer .pixel-logo img {
+        height: 43px;
+        /* width: 100%; */
+        text-align: center;
+        margin: 0 auto;
+    }
+    .copyright {
+        text-align: center;
+        padding: 0 85px;
+    }
+}
+/* Extra Small Devices, Phones */
+ @media only screen and (min-width : 480px) {
+    body {
+        background-color: #ffffff;
+    }
+    .product-thumb img {
+        width: 50%;
+    }
+}
+/* Smallest Screen Size Design Target */
+
+/* Example: iPad portrait */
+
+/* True if width greater than or equal to 768px */
+ @media only screen and (min-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+    /*  Header Section */
+    .nabar-brand-con {
+        float: none;
+    }
+    .social-media {
+        float: none;
+        width: auto;
+    }
+    .social-media {
+        margin-top: 7px;
+        padding: 0px 5px 5px 5px;
+    }
+    .company-title-con {
+        position: static;
+    }
+    .header-banner {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-position: 21% -185px;
+        height: 600px;
+        width: 100%;
+        min-height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .header-banner .title-heading {
+        text-align: center;
+        margin-top: 25px;
+    
+        font-size: 45pt;
+}
+    .header-banner .title-sub-heading {
+        text-align: center;
+        margin-top: 0px;
+    
+        font-size: 14pt;
+}
+    .header-banner .btn {
+        margin: 15px 0;
+        text-align: center;
+    
+        margin-left: 30px;
+}
+    /** Main Products **/
+    .main-products .thumbnail {
+        margin-bottom: 0;
+        border-radius: 0;
+        display: block;
+        padding: 0px;
+        line-height: 1.42857143;
+        background-color: #ffffff;
+        border: 0;
+        border-style: none;
+        overflow: hidden;
+        min-height: 240px;
+    }
+    .main-products h4 {
+        color: #444444;
+    }
+    .main-products small a {
+        color: #999999;
+    }
+    .main-products small a:hover {
+        color: #999999;
+        text-decoration: none;
+    }
+    .product-thumb {
+        position: relative;
+        display: block;
+        background-color: #ffffff;
+        padding: 5px;
+        min-height: 119px;
+    }
+    .product-name {
+        font-weight:700;
+        font-size:18px;
+        margin-bottom: 0;
+        color: #444444;
+    }
+    .product-desc {
+        font-size:17px;
+    }
+    .product-details {
+        font-size:16px;
+    }
+    .product-thumb img {
+        width: 35%;
+    }
+    .menu li a {
+        padding-right: 12px;
+        font-size: 16px;
+        color: #ffffff;
+        padding-left: 12px;
+    }
+    .footer {
+        padding: 60px 0;
+    }
+    .footer .pixel-logo {
+        width: 267px;
+        display: block;
+        text-align: right;
+        float: right;
+    }
+    .footer .pixel-logo img {
+        height: 43px;
+        width: 100%;
+        text-align: right;
+    }
+    .footer .pixel-logo img {
+        height: 43px;
+        /* width: 100%; */
+        text-align: center;
+        margin: 0 auto;
+    }
+    .copyright {
+        text-align: left;
+        padding: 0;
+    }
+}
+@media (max-width: 990px) and (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main-selection {
+        margin-top: -185px;
+    }
+}
+/* Smallest Screen Size Design Target */
+
+/* Example: iPad landscape, Laptops and Desktops */
+
+/* True if width greater than or equal to 992px */
+ @media only screen and (min-width: 992px) {
+    body {
+        background-color: #ffffff;
+    }
+    /*  Header Section */
+    .social-media {
+        margin-top: 20px;
+    }
+    .header-banner {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 500px;
+        width: 100%;
+        min-height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .header-banner .title-heading {
+        text-align: left;
+        font-size: 50pt;
+        font-weight: 700;
+    }
+    .header-banner .title-sub-heading {
+        text-align: left;
+        margin-top: 0px;
+        font-size: 15pt;
+        font-weight: 200;
+    }
+    .header-banner .btn {
+        margin: 15px 0;
+        text-align: center;
+    }
+    .main-selection {
+        margin-top: 0;
+    }
+    /* Help Us Section */
+    .help-us, .product-offer {
+        text-align: left;
+    }
+    .help-us {
+        margin-top: 15px;
+    }
+    .product-offer {
+        margin-top: 15px;
+    }
+    .help-us h4 {
+        font-size: 18px;
+    }
+    .help-us .list-group li a {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .product-offer strong {
+        font-size: 18px;
+        width: auto;
+        display: inline-block;
+        text-indent: 15px;
+    }
+    .product-offer small a {
+        color: #999999;
+    }
+    .product-offer small a:hover {
+        color: #999999;
+        text-decoration: none;
+    }
+    .main-products .item {
+        padding: 0 15px;
+        margin-top: 5px;
+    }
+    .product-name {
+        font-weight:700;
+        font-size:16px;
+        margin-bottom: 0;
+        color: #444444;
+    }
+    .product-desc {
+        font-size:15px;
+    }
+    .product-details {
+        font-size:15px;
+    }
+    .main-products .thumbnail {
+        margin-bottom: 0;
+        border-radius: 0;
+        display: block;
+        padding: 0px;
+        line-height: 1.42857143;
+        background-color: #ffffff;
+        border: 0;
+        border-style: none;
+        overflow: hidden;
+        min-height: 240px;
+    }
+    .product-offer h4 {
+        color: #444444;
+    }
+    .product-offer small a {
+        color: #999999;
+    }
+    .product-offer small a:hover {
+        color: #999999;
+        text-decoration: none;
+    }
+    .product-thumb {
+        position: relative;
+        display: block;
+        background-color: #ffffff;
+        padding: 5px;
+        min-height: 133px;
+    }
+    .product-thumb img {
+        width: 100%;
+    }
+    .product-name {
+        font-weight:700;
+        font-size:14px;
+        margin-bottom: 0;
+        color: #444444;
+    }
+    .product-desc {
+        color: #444444;
+        font-size:12px;
+    }
+    .product-details {
+        color: #999999;
+        font-size:12px;
+    }
+    .footer {
+        padding: 60px 0;
+    }
+    .footer .pixel-logo {
+        width: 267px;
+        display: block;
+        text-align: right;
+        float: right;
+    }
+    .footer .pixel-logo img {
+        height: 43px;
+        width: 100%;
+        text-align: right;
+    }
+    .footer-menu {
+        background-color: #017cc2;
+        padding: 70px 0;
+        text-align:left;
+    }
+    .footer-menu .menu li {
+        padding: 0;
+        color: #ffffff;
+    }
+    .menu {
+        padding: 0;
+        margin: 0;
+    }
+    .menu li a {
+        padding: 3px;
+        font-size: 13px;
+        color: #ffffff;
+    }
+}
+/* Smallest Screen Size Design Target */
+
+/* Example: iPad landscape, Laptops and Desktops */
+
+/* True if width greater than or equal to 992px */
+ @media only screen and (min-width: 1200px) {
+    body {
+        background-color: #ffffff;
+    }
+}
